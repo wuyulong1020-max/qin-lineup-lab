@@ -27,6 +27,8 @@ jobs:
         run: |
           mkdir -p _site
           unzip -q qin-lineup-lab-github-pages.zip -d _site
+          if [ -f style-v2.css ]; then cp style-v2.css _site/; fi
+          sed -i "s|style-v2.css|style-v2.css?v=${GITHUB_SHA}|" _site/index.html
           test -f _site/index.html
           test -f _site/worker-v2.js
           test -f _site/benchmarks-v2/index.json
