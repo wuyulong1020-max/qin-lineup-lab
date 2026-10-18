@@ -1,18 +1,22 @@
 name: Publish Qin Lineup Lab
 
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+
 concurrency:
   group: pages
   cancel-in-progress: false
+
 
 jobs:
   deploy:
@@ -27,11 +31,15 @@ jobs:
         run: |
           mkdir -p _site
           unzip -q qin-lineup-lab-github-pages.zip -d _site
-          if [ -f style-v2.css ]; then cp style-v2.css _site/; fi
-          sed -i "s|style-v2.css|style-v2.css?v=${GITHUB_SHA}|" _site/index.html
           test -f _site/index.html
-          test -f _site/worker-v2.js
-          test -f _site/benchmarks-v2/index.json
+          if [ -f _site/bench/index.json ]; then
+            test -f _site/personal-worker.js
+            test -f _site/app.css
+          else
+            if [ -f style-v2.css ]; then cp style-v2.css _site/; fi
+            test -f _site/worker-v2.js
+            test -f _site/benchmarks-v2/index.json
+          fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload website
@@ -41,3 +49,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
