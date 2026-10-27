@@ -1,6 +1,6 @@
-# 秦时明月卡牌版阵容实验室 · v3.0.6
+# 秦时明月卡牌版阵容实验室 · v3.0.7
 
-**第2次正式升级：化繁为简；当前子版本 v3.0.6。**
+**第2次正式升级：化繁为简；当前子版本 v3.0.7。**
 
 [打开实验室](https://wuyulong1020-max.github.io/qin-lineup-lab/) · [玩家手册](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt) · [升级日志](https://wuyulong1020-max.github.io/qin-lineup-lab/changelog.txt)
 
