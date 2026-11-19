@@ -1,6 +1,6 @@
-# 秦时明月卡牌版阵容实验室 · v3.4.3
+# 秦时明月卡牌版阵容实验室 · v3.4.4
 
-[打开实验室](https://wuyulong1020-max.github.io/qin-lineup-lab/?v=3.4.3) · [使用指南](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
+[打开实验室](https://wuyulong1020-max.github.io/qin-lineup-lab/?v=3.4.4) · [使用指南](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
 
 1113冰棘破天－妃雪阁琴师｜历史为骨，艺术为翼。提建议或合作QQ：2940432680。
 
@@ -16,7 +16,7 @@
 公开榜单、从阵容库搜索和数据洞察读取预计算资料；寻找理论最优、机师分析与自选阵容对比使用战斗模拟。
 星级环境为2星、10星、20星、20星＋8觉；加权总榜权重为10%／30%／40%／20%。角色资料和保存阵容保存在当前浏览器。
 
-战斗模型：QIN-3.4.3；评分对手池：P2-3.1-edf0d6f6e2c8-m56-v1-QIN3.3-v1。累计已记录实际对战983,474,616场。文件与数据指纹见release-manifest.json。
+战斗模型：QIN-3.4.4；评分对手池：P2-3.1-edf0d6f6e2c8-m56-v1-QIN3.3-v1。累计已记录实际对战983,474,616场。文件与数据指纹见release-manifest.json。
 
 后期属性校准提高了20星、8觉醒的标准培养拟合度。各榜单使用本轮重算的数据。暗度陈仓会拦下同一次攻击对该弟子的多段可抵挡伤害。
 
