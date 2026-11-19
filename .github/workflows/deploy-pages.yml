@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p _site
           for archive in qin-lineup-lab-data-*.zip qin-lineup-lab-github-pages.zip; do
-            if [ -f "$archive" ]; then unzip -q -o "$archive" -d _site; fi
+            if [ -f "$archive" ]; then python3 -m zipfile -e "$archive" _site; fi
           done
           test -f _site/index.html
           test -f _site/bench/index.json
