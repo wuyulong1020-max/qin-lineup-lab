@@ -1,3 +1,13 @@
+# 秦时阵容实验室 v3.4.6
+
+[打开平台](https://wuyulong1020-max.github.io/qin-lineup-lab/) · [使用手册](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
+
+秦时阵容实验室 v3.4.6：核心榜及标准战斗全员满配，挂件榜只降低所比较弟子的装备与内丹。图鉴新增推荐典籍、第四内丹和词条。按六类实际羁绊查看流派克制与常见组合。20星和8觉新增 190 套正式评分阵容。招架抵挡70%普攻伤害并反击一次。
+
+本版新增 53,736,312 场记录；标准评分的 180 位对手保持不变。
+
+<details><summary>早期版本说明</summary>
+
 # 秦时明月卡牌版阵容实验室 · v3.4.5
 
 [打开实验室](https://wuyulong1020-max.github.io/qin-lineup-lab/?v=3.4.5) · [使用指南](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
@@ -21,3 +31,5 @@
 后期属性校准提高了20星、8觉醒的标准培养拟合度。各榜单使用本轮重算的数据。暗度陈仓会拦下同一次攻击对该弟子的多段可抵挡伤害。
 
 本版补足成熟环境满缘分和普通资源，20星及8觉统一300级。核心培养采用逐人选定的实装配装，组合按两份投入预算比较。
+
+</details>
