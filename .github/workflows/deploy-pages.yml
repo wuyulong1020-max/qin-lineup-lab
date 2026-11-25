@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -33,9 +34,24 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload website
+        id: upload
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+      - name: Wait for Pages artifact to be indexed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: |
+          for attempt in {1..15}; do
+            if gh api "/repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" \
+              --jq '.artifacts[] | select(.expired == false) | .id' | grep -Fx "$ARTIFACT_ID"; then
+              exit 0
+            fi
+            sleep 8
+          done
+          echo "::error::The uploaded Pages artifact is still missing from this run"
+          exit 1
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
