@@ -1,4 +1,4 @@
-# 秦时阵容实验室 v4.0.4
+# 秦时阵容实验室 v4.0.5
 
 [打开平台](https://wuyulong1020-max.github.io/qin-lineup-lab/) · [使用手册](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
 
