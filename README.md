@@ -1,3 +1,13 @@
+# 秦时阵容实验室 v4.0.2
+
+[打开平台](https://wuyulong1020-max.github.io/qin-lineup-lab/) · [使用手册](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
+
+核心榜比较谁最值得集中培养，挂件榜比较满配队伍中谁最适合基础培养。竞技和推图统一 20 回合。新增五只机关兽梯度，强化东皇太一、星魂、月神同队的阴阳阵容探索。同档前三优先展示不同流派与核心搭配。
+
+正式阵容评分在同环境固定 180 队上统一进行 2,880 场模拟。上线数据和引擎版本见 release-manifest.json。
+
+<details><summary>v4.0.1 及更早版本</summary>
+
 # 秦时阵容实验室 v4.0.1
 
 [打开平台](https://wuyulong1020-max.github.io/qin-lineup-lab/) · [使用手册](https://wuyulong1020-max.github.io/qin-lineup-lab/player-guide.txt)
@@ -41,6 +51,8 @@ v4.0.0 新增杯赛竞猜。20星和8觉的对手池参考天下榜、杯赛与�
 后期属性校准提高了20星、8觉醒的标准培养拟合度。各榜单使用本轮重算的数据。暗度陈仓会拦下同一次攻击对该弟子的多段可抵挡伤害。
 
 本版补足成熟环境满缘分和普通资源，20星及8觉统一300级。核心培养采用逐人选定的实装配装，组合按两份投入预算比较。
+
+</details>
 
 </details>
 
